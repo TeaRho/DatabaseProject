@@ -1,0 +1,72 @@
+backend
+│
+├── src
+│   ├── main
+│   │
+│   ├── java
+│   │   └── com/logistics
+│   │
+│   │       ├── config/
+│   │       │      MybatisConfig.java
+│   │       │      SwaggerConfig.java
+│   │       │      CorsConfig.java
+│   │       │
+│   │       ├── controller/
+│   │       │      GoodsController.java
+│   │       │      SupplierController.java
+│   │       │      WarehouseController.java
+│   │       │      InventoryController.java
+│   │       │      WaybillController.java
+│   │       │      DashboardController.java
+│   │       │
+│   │       ├── service/
+│   │       │      GoodsService.java
+│   │       │      InventoryService.java
+│   │       │      WaybillService.java
+│   │       │
+│   │       ├── service/impl/
+│   │       │
+│   │       ├── mapper/
+│   │       │      GoodsMapper.java
+│   │       │      SupplierMapper.java
+│   │       │      WarehouseMapper.java
+│   │       │      InventoryMapper.java
+│   │       │      WaybillMapper.java
+│   │       │
+│   │       ├── entity/
+│   │       │      Region.java
+│   │       │      City.java
+│   │       │      Goods.java
+│   │       │      Supplier.java
+│   │       │      Warehouse.java
+│   │       │      Inventory.java
+│   │       │      Waybill.java
+│   │       │      WaybillItem.java
+│   │       │
+│   │       ├── dto/
+│   │       │      WaybillDTO.java
+│   │       │      DashboardDTO.java
+│   │       │
+│   │       ├── vo/
+│   │       │      Result.java
+│   │       │      PageResult.java
+│   │       │
+│   │       ├── utils/
+│   │       │      JwtUtil.java
+│   │       │      ExcelUtil.java
+│   │       │
+│   │       ├── exception/
+│   │       │
+│   │       └── SmartLogisticsApplication.java
+│   │
+│   └── resources
+│       ├── mapper/
+│       │      GoodsMapper.xml
+│       │      WarehouseMapper.xml
+│       │      InventoryMapper.xml
+│       │      WaybillMapper.xml
+│       │
+│       ├── application.yml
+│       └── static/
+│
+└── pom.xml
