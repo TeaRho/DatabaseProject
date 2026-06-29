@@ -70,3 +70,61 @@ backend
 │       └── static/
 │
 └── pom.xml
+
+frontend
+│
+├── src
+│
+├── api
+│      goods.js
+│      supplier.js
+│      warehouse.js
+│      inventory.js
+│      waybill.js
+│      dashboard.js
+│
+├── assets
+│
+├── components
+│      Header.vue
+│      Sidebar.vue
+│      Footer.vue
+│      SearchBar.vue
+│
+├── router
+│      index.js
+│
+├── utils
+│      request.js
+│
+├── views
+│
+│      Dashboard
+│          index.vue
+│
+│      Goods
+│          GoodsList.vue
+│          GoodsAdd.vue
+│
+│      Supplier
+│          SupplierList.vue
+│          SupplierAdd.vue
+│
+│      Warehouse
+│          WarehouseList.vue
+│          WarehouseAdd.vue
+│
+│      Inventory
+│          InventoryList.vue
+│
+│      Waybill
+│          WaybillList.vue
+│          WaybillAdd.vue
+│          WaybillDetail.vue
+│
+│      Report
+│          FreightReport.vue
+│
+├── App.vue
+├── main.js
+└── package.json
