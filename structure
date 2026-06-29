@@ -36,7 +36,7 @@ backend
 │   │       ├── entity/
 │   │       │      Region.java
 │   │       │      City.java
-│   │       │      Goods.java
+│   │       │      Good.java
 │   │       │      Supplier.java
 │   │       │      Warehouse.java
 │   │       │      Inventory.java
