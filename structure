@@ -27,6 +27,10 @@ backend
 │   │       ├── service/impl/
 │   │       │
 │   │       ├── mapper/
+│   │       │      WaybillItemMapper.java
+│   │       │      RegionMapper.java
+│   │       │      SupplierGoodsMapper.java
+│   │       │      CityMapper.java
 │   │       │      GoodsMapper.java
 │   │       │      SupplierMapper.java
 │   │       │      WarehouseMapper.java
