@@ -3,12 +3,12 @@ import lombok.Data;
 
 @Data
 public class Good {
-    int goodID;
-    String goodName;
-    String goodCategory;
-    String goodBrand;
-    float goodPrice;
-    String goodComment;
+    private int goodID;
+    private String goodName;
+    private String goodCategory;
+    private String goodBrand;
+    private float goodPrice;
+    private String goodComment;
     public Good(int goodID, String goodName, String goodCategory, String goodBrand, float goodPrice, String goodComment) {
         super();
         this.goodID = goodID;
