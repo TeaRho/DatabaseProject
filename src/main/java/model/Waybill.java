@@ -1,4 +1,4 @@
-package com.logistics.entity;
+package model;
 
 import lombok.Data;
 
